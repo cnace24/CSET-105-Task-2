@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Grocery List Manager</h1>
+    <div class="controls">
+        <input type="text" id="newItem" placeholder="Add item...">
+        <button onclick="addItem()">Add</button>
+        <button onclick="showRemaining()">View Remaining</button>
+        <button onclick="showPurchased()">View Purchased</button>
+        <button onclick="showAll()">View All</button>
+    </div>
+    <ul id="groceryList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
